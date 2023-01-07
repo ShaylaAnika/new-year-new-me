@@ -6,7 +6,9 @@
 /* header style */
 .header{
     background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
     height: 809px;
+    background-size: cover;
     
 }
 .header-content{
@@ -25,6 +27,7 @@
    font-size: 16px;
    color: #444343;
    margin-bottom: 32px;
+   line-height: 26px;
 }
 
 .header-btn {
@@ -45,10 +48,17 @@
 
 /* main section style */
 
+/* main{
+    width: 70%;
+    margin: 0 auto;
+} */
+
 /* failures section style */
 
 section{
-    margin: 130px 260px 0;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 
 .failures-section{
@@ -58,6 +68,7 @@ section{
 .failures-img{
     width: 569px;
     height: 720px;
+    
 }
 
 .failures-container{
@@ -138,6 +149,58 @@ section{
     font-size: 25px;
     color: #737272;
 }
+
+/* resolution style */
+
+
+.resolution-section{
+    text-align: center;
+}
+.my-resolution{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.resolution-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 0 200px;
+    margin-bottom: 45px;
+}
+
+.resolution-container{
+    display: flex;
+    gap: 25px;
+}
+
+.resolution-content{
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    padding: 50px 20px 15px;
+}
+
+.resol-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.resol-pera{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.resol-img{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+
+
 
 /* contact section */
 
